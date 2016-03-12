@@ -8,12 +8,12 @@ All about Openstack with VMware solutions
 
 ## Fuel
 ![FUEL](docs/fuel.png)
-- ***vnw-fueled*** : scripts, conf files and tips for Mirantis Fuel with VMware vCenter & VDS plugins
-- ***vmw-nsx-fueled*** : scripts, conf files and tips for Mirantis Fuel with VMware vCenter & NSX-V plugins
+- [vnw-fueled](vmw-fueled/README.md) : scripts, conf files and tips for Mirantis Fuel with VMware vCenter & VDS plugins
+- [vnw-nsx-fueled](vmw-nsx-fueled/README.md) : scripts, conf files and tips for Mirantis Fuel with VMware vCenter & NSX-V plugins
 
 ## Autopilot/Landscape
 ![UBUNTU](docs/ubuntu.png)
-- ***vmw-autopiloted*** : scripts, conf files and tips for Canonical Landscape + Autopilot with VMware vCenter & NSX-V plugins
+- [vnw-autopiloted](vmw-autopiloted/README.md) : scripts, conf files and tips for Canonical Landscape + Autopilot with VMware vCenter & NSX-V plugins
 
 Licensing
 ---------
