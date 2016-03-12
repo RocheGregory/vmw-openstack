@@ -1,1 +1,1 @@
-# VMware vRealize Automation 7.0+ with Openstack as Ednpoint 
+# VMware vRA and Openstack as Endpoint 
