@@ -4,7 +4,7 @@ All about Openstack with VMware solutions
 ## VIO
 ![VIO](docs/vmw%2Bopenstack.jpg)
 ![NSX](docs/nsx.png)
-- ***vio*** : scripts, conf files and tips for VMware Integrated Openstack, vCenter and NSX-V
+- [VIO](vio/README.md) : scripts, conf files and tips for VMware Integrated Openstack, vCenter and NSX-V
 
 ## Fuel
 ![FUEL](docs/fuel.png)
