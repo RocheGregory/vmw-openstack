@@ -7,7 +7,7 @@ All about Openstack with VMware solutions
 - [VIO](vio/README.md) : scripts, conf files and tips for VMware Integrated Openstack, vCenter and NSX-V
 
 ## vRealize Automation
-![VRA](docs/vra.png)
+![VRA](docs/vra.jpg)
 - [vra-openstack](vra-openstack/README.md) : all that your need to know to integrate openstack with vRealize Automation
 
 ## Fuel
