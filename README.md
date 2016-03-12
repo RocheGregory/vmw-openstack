@@ -1,14 +1,14 @@
 # vmw-openstack
 All about Openstack with VMware solutions
 
+## vRealize Automation
+![VRA](docs/vra.jpg)
+- [vra-openstack](vra-openstack/README.md) : all that your need to know to integrate openstack with vRealize Automation
+
 ## VIO
 ![VIO](docs/vmw%2Bopenstack.jpg)
 ![NSX](docs/nsx.png)
 - [VIO](vio/README.md) : scripts, conf files and tips for VMware Integrated Openstack, vCenter and NSX-V
-
-## vRealize Automation
-![VRA](docs/vra.jpg)
-- [vra-openstack](vra-openstack/README.md) : all that your need to know to integrate openstack with vRealize Automation
 
 ## Fuel
 ![FUEL](docs/fuel.png)
