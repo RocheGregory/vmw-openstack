@@ -6,6 +6,10 @@ All about Openstack with VMware solutions
 ![NSX](docs/nsx.png)
 - [VIO](vio/README.md) : scripts, conf files and tips for VMware Integrated Openstack, vCenter and NSX-V
 
+## vRealize Automation
+![VRA](docs/vra.png)
+- [VIO](vra-openstack/README.md) : all that your need to know to integrate openstack with vRealize Automation
+
 ## Fuel
 ![FUEL](docs/fuel.png)
 - [vnw-fueled](vmw-fueled/README.md) : scripts, conf files and tips for Mirantis Fuel with VMware vCenter & VDS plugins
