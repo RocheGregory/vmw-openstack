@@ -1,1 +1,1 @@
-# Canonical Ubuntu Autopilot & Landscape with vCenter/NSX-V plugins 
+# Ubuntu Openstack with vCenter/NSX-V plugins 
