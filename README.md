@@ -8,7 +8,7 @@ All about Openstack with VMware solutions
 
 ## vRealize Automation
 ![VRA](docs/vra.png)
-- [VIO](vra-openstack/README.md) : all that your need to know to integrate openstack with vRealize Automation
+- [vra-openstack](vra-openstack/README.md) : all that your need to know to integrate openstack with vRealize Automation
 
 ## Fuel
 ![FUEL](docs/fuel.png)
