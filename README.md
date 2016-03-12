@@ -1,7 +1,7 @@
 # vmw-openstack
 All about Openstack with VMware solutions
 
-![](dcs/vmw+openstack.jpg)
+![VIO](docs/vmw%2Bopenstack.jpg)
 ![NSX](http://vlenzker.net/wp-content/uploads/2015/10/NSX.png)
 - vio : scripts, conf files and tips for VMware Integrated Openstack, vCenter and NSX-V
 
