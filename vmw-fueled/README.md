@@ -31,6 +31,7 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
  ![](docs/fuel-vcenter-conf-plugin.png)
   * Select the "compute-vmware" node as target node
   * In my case I have a NFS Datastore acting as Glance repository
+   
  ![](docs/fuel-vcenter-conf-plugin-nova-glance.png)
 
 5. Deploy the env
