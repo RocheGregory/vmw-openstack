@@ -41,11 +41,11 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
   * Creation of a new network == creation of a new PORTGROUP in VDS with a VLANID taken in the range
   * Spawn a VM in neutron network == the VM VNIC is attached to the corresponding PORTGROUP by vCenter
 
-Example of corresponding PORTGROUP to neutron network, automatically created by VDS plugin
-![](docs/penstack-sevral-networks.png)
+Example of corresponding PORTGROUP with neutron network, automatically created by VDS plugin
+![](docs/openstack-sevral-networks.png)
 ![](docs/openstack-cli.png)
 ![](docs/vcenter-after-vm-creation.png)
 
 # Cheat Sheet
   * [Openstack saved configuration files for this examples](scripts/vmw-fuel-dvs.tgz)
-  * [Plug In User Guide](http://plugins.mirantis.com/docs/f/u/fuel-plugin-vmware-dvs/fuel-plugin-vmware-dvs-1.1-1.1.0-1.pdf)
+  * [VDS 1.1.0 Plugin User Guide](http://plugins.mirantis.com/docs/f/u/fuel-plugin-vmware-dvs/fuel-plugin-vmware-dvs-1.1-1.1.0-1.pdf)
