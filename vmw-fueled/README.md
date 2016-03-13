@@ -47,5 +47,5 @@ Example of corresponding PORTGROUP with neutron network, automatically created b
 ![](docs/vcenter-after-vm-creation.png)
 
 # Cheat Sheet
-  * [Openstack saved configuration files for this examples](scripts/vmw-fuel-dvs.tgz)
+  * [Openstack saved configuration files for this examples](scripts)
   * [VDS 1.1.0 Plugin User Guide](http://plugins.mirantis.com/docs/f/u/fuel-plugin-vmware-dvs/fuel-plugin-vmware-dvs-1.1-1.1.0-1.pdf)
