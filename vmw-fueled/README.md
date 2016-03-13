@@ -10,15 +10,13 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
 2. Create a VDS like the 'dvSwitch' below and attach hosts of 'Openstack' Cluster
 ![](docs/vcenter-dvswitch.png)
 
-## vCenter Preparation
+## Fuel Preparation
 
-1. Configure the network tab and specify the VLAN range, for each neutron network there is a dedicated portgroup the VLAN ID
-![](docs/fuel-network-settings.png)
-
-2. Download and install VDS plugin into Fuel Master node, verify installed plugins
+1. Download and install VDS plugin into Fuel Master node, verify installed plugins
 ```bash
 [root@fuel ~]# fuel plugins --install fuel-plugin-vmware-dvs-1.1-1.1.0-1.noarch.rpm
 ```
+
 ```bash
 [root@fuel ~]# fuel plugins
 id | name                   | version | package_version
@@ -26,11 +24,14 @@ id | name                   | version | package_version
 1  | fuel-plugin-vmware-dvs | 1.1.0   | 3.0.0
 ```
 
-3. Create a dedicated Fuel env for vCenter with QEMU + vCenter options and attach 2 nodes
+2. Create a dedicated Fuel env for vCenter with QEMU + vCenter options and attach 2 nodes
   * One with controller+cinder+cinder-vmware+base-os roles
   * One with only compute-vmware role
    
 ![](docs/fuel-nodes.png)
+
+3. Configure the network tab and specify the VLAN range, for each neutron network there is a dedicated portgroup the VLAN ID (nothing to do, just for illustrating the behavior)
+![](docs/fuel-network-settings.png)
 
 4. Configure the vCenter plugin, like the example below
 ![](docs/fuel-vcenter-conf-plugin.png)
@@ -39,12 +40,12 @@ id | name                   | version | package_version
 5. Deploy the env
 ![](docs/fuel-deployment.png)
 
-6. Example of corresponding PORTGROUP to neutron network, automatically created by plugin
-![](docs/vcenter-new-portgroup.png)
-
 ## Consume openstack as usual
   * Creation of a new network: creation of a new PORTGROUP in VDS with a VLANID in the range
   * Spawn a VM in neutron network: the VM VNIC is attached to the corresponding PORTGROUP by vCenter
+
+Example of corresponding PORTGROUP to neutron network, automatically created by plugin
+![](docs/vcenter-new-portgroup.png)
 
 [Openstack saved oconfiguration files for this examples](scripts/vmw-fuel-dvs.tgz)
 
