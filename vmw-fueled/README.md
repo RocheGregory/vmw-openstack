@@ -18,8 +18,8 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
  ```
 
 2. Create a dedicated Fuel env for vCenter with QEMU + vCenter options and attach 2 nodes
-  * One with controller+cinder+cinder-vmware+base-os roles
-  * One with only compute-vmware role
+  * One with "controller+cinder+cinder-vmware+base-os" roles
+  * One with only "compute-vmware" role
    
  ![](docs/fuel-nodes.png)
 
@@ -28,15 +28,17 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
  ![](docs/fuel-network-settings.png)
 
 4. Configure the vCenter plugin, like the example below
-![](docs/fuel-vcenter-conf-plugin.png)
-![](docs/fuel-vcenter-conf-plugin-nova-glance.png)
+ ![](docs/fuel-vcenter-conf-plugin.png)
+  * Select the "compute-vmware" node as target node
+  * In my case I have a NFS Datastore acting as Glance repository
+ ![](docs/fuel-vcenter-conf-plugin-nova-glance.png)
 
 5. Deploy the env
 ![](docs/fuel-deployment.png)
 
 ## Consume openstack as usual
-  * Creation of a new network: creation of a new PORTGROUP in VDS with a VLANID in the range
-  * Spawn a VM in neutron network: the VM VNIC is attached to the corresponding PORTGROUP by vCenter
+  * Creation of a new network == creation of a new PORTGROUP in VDS with a VLANID in the range
+  * Spawn a VM in neutron network == the VM VNIC is attached to the corresponding PORTGROUP by vCenter
 
 Example of corresponding PORTGROUP to neutron network, automatically created by VDS plugin
 ![](docs/vcenter-new-portgroup.png)
