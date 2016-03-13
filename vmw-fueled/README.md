@@ -42,7 +42,7 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
   * Spawn a VM in neutron network == the VM VNIC is attached to the corresponding PORTGROUP by vCenter
 
 Example of corresponding PORTGROUP to neutron network, automatically created by VDS plugin
-![](docs/openstack-several-networks.png)
+![](docs/penstack-sevral-networks.png)
 ![](docs/openstack-cli.png)
 ![](docs/vcenter-after-vm-creation.png)
 
