@@ -23,7 +23,7 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
    
  ![](docs/fuel-nodes.png)
 
-3. Configure the network tab and specify the VLAN range, for each neutron network there is a dedicated portgroup the VLAN ID (nothing to do, just for illustrating the behavior)
+3. Configure networks and check Neutron L2 configuration with the VLAN range, for each neutron network there is a dedicated PORTGROUP. 
 ![](docs/fuel-network-settings.png)
 
 4. Configure the vCenter plugin, like the example below
@@ -37,7 +37,7 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
   * Creation of a new network: creation of a new PORTGROUP in VDS with a VLANID in the range
   * Spawn a VM in neutron network: the VM VNIC is attached to the corresponding PORTGROUP by vCenter
 
-Example of corresponding PORTGROUP to neutron network, automatically created by plugin
+Example of corresponding PORTGROUP to neutron network, automatically created by VDS plugin
 ![](docs/vcenter-new-portgroup.png)
 
 [Openstack saved configuration files for this examples](scripts/vmw-fuel-dvs.tgz)
