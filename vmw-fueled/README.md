@@ -15,9 +15,6 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
 1. Download and install VDS plugin into Fuel Master node
 ```
 [root@fuel ~]# fuel plugins --install fuel-plugin-vmware-dvs-1.1-1.1.0-1.noarch.rpm
-```
-and verify plugins
-```
 [root@fuel ~]# fuel plugins
 id | name                   | version | package_version
 ---|------------------------|---------|----------------
@@ -27,6 +24,7 @@ id | name                   | version | package_version
 2. Create a dedicated Fuel env for vCenter with QEMU + vCenter options and attach 2 nodes
   * One with controller+cinder+cinder-vmware+base-os roles
   * One with only compute-vmware role
+   
 ![](docs/fuel-nodes.png)
 
 3. Configure the network tab and specify the VLAN range, for each neutron network there is a dedicated portgroup the VLAN ID (nothing to do, just for illustrating the behavior)
@@ -46,5 +44,5 @@ id | name                   | version | package_version
 Example of corresponding PORTGROUP to neutron network, automatically created by plugin
 ![](docs/vcenter-new-portgroup.png)
 
-[Openstack saved oconfiguration files for this examples](scripts/vmw-fuel-dvs.tgz)
+[Openstack saved configuration files for this examples](scripts/vmw-fuel-dvs.tgz)
 
