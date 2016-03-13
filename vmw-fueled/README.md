@@ -21,7 +21,7 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
   * One with controller+cinder+cinder-vmware+base-os roles
   * One with only compute-vmware role
    
-![](docs/fuel-nodes.png)
+ ![](docs/fuel-nodes.png)
 
 3. Configure the network tab and specify the VLAN range, for each neutron network there is a dedicated portgroup the VLAN ID (nothing to do, just for illustrating the behavior)
 ![](docs/fuel-network-settings.png)
