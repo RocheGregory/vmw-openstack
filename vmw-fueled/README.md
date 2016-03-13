@@ -13,6 +13,9 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
 ## Fuel Preparation
 
 1. [Download](http://plugins.mirantis.com/repository/f/u/fuel-plugin-vmware-dvs/fuel-plugin-vmware-dvs-1.1-1.1.0-1.noarch.rpm) and install VDS plugin for Fuel 7.0 on master node 
+  * ```bash
+[root@fuel ~]# fuel plugins --install fuel-plugin-vmware-dvs-1.1-1.1.0-1.noarch.rpm
+```
 
 2. Create a dedicated Fuel env for vCenter with QEMU + vCenter options and attach 2 nodes
   * One with controller+cinder+cinder-vmware+base-os roles
