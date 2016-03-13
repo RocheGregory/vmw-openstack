@@ -24,7 +24,8 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
  ![](docs/fuel-nodes.png)
 
 3. Configure networks and check Neutron L2 configuration with the VLAN range, for each neutron network there is a dedicated PORTGROUP
-![](docs/fuel-network-settings.png)
+   
+ ![](docs/fuel-network-settings.png)
 
 4. Configure the vCenter plugin, like the example below
 ![](docs/fuel-vcenter-conf-plugin.png)
