@@ -44,5 +44,6 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
 Example of corresponding PORTGROUP to neutron network, automatically created by VDS plugin
 ![](docs/vcenter-new-portgroup.png)
 
+# Cheat Sheet
 [Openstack saved configuration files for this examples](scripts/vmw-fuel-dvs.tgz)
 
