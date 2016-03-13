@@ -37,7 +37,7 @@ Assuming you have an Up & Running vCenter 6.0 with bunch of ESX 6.0 and an fully
 ![](docs/fuel-deployment.png)
 
 ## Consume openstack as usual
-  * Creation of a new network == creation of a new PORTGROUP in VDS with a VLANID in the range
+  * Creation of a new network == creation of a new PORTGROUP in VDS with a VLANID taken in the range
   * Spawn a VM in neutron network == the VM VNIC is attached to the corresponding PORTGROUP by vCenter
 
 Example of corresponding PORTGROUP to neutron network, automatically created by VDS plugin
