@@ -1,5 +1,7 @@
 # Ubuntu Openstack with vCenter/NSX-V plugins 
 
+Assuming that you have Up & Running vCenter and [Landscape/Autopilot](http://www.ubuntu.com/cloud/openstack/autopilot)
+
 ## How to setup correctly slave node in Landscape
 There are tricky tips in order to allow Landscape to manage powerstate of VM through vCenter. 
    
