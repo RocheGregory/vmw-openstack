@@ -1,6 +1,6 @@
 # Ubuntu Openstack with vCenter/NSX-V plugins 
 
-## How to setup correctly slave node into Landscape
+## How to setup correctly slave node in Landscape
 There are tricky tips in order to allow Landscape managing direclty powerstate of VMs
    
 1. After deploying a slave node, you have to retrieve the vc.uuid from the vmx file on ESX or from the datastore 
