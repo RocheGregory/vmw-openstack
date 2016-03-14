@@ -1,6 +1,6 @@
 # Ubuntu Openstack with vCenter/NSX-V plugins 
 
-Assuming that you have Up & Running vCenter and [Landscape/Autopilot](http://www.ubuntu.com/cloud/openstack/autopilot)
+Assuming that you have Up & Running vCenter and [Landscape/Autopilot](http://www.ubuntu.com/cloud/openstack/autopilot).  
 I have create a [slave node template](scripts/autopilot-cloudnode.ova) for my lab.
 
 ## How to setup correctly slave node in Landscape
