@@ -10,16 +10,16 @@ There is a risk to desynchronize all that stuff. Anyway I explain in this topic 
  ![](docs/2-identify-url.png)
 
  3. Identify network in within you want spawn VMs
- ![](docs/3-identify-network.png)
+ ![](docs/3-identify-networks.png)
 
  4. Create the OS endpoint in vRA
- ![](docs/4-create-os-point.png)
+ ![](docs/4-create-os-endpoint.png)
 
  5. Spicify OS URL, the account and the projet
  ![](docs/5-spicify-url-account-project.png)
 
  6. Dont't forget to modify your Fabric Group
- ![](docs/6-modify-fabric.png)
+ ![](docs/6-modify-fabric-group.png)
 
  7. And add the OS resource
  ![](docs/7-add-openstack.png)
@@ -37,10 +37,10 @@ There is a risk to desynchronize all that stuff. Anyway I explain in this topic 
  ![](docs/11-publish-blueprint.png)
 
  12. Now create a new request to launch a new VM deployment
- ![](docs/12-blueprint-availbale.png)
+ ![](docs/12-blueprint-available.png)
 
  13. Check the new request
- ![](docs/13-new-reauest.png)
+ ![](docs/13-new-request.png)
 
  14. The request is submitted, everything seems to be under control...
  ![](docs/14-submitted-request.png)
