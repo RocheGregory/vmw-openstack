@@ -1,5 +1,9 @@
 # vmw-openstack
 All about Openstack with VMware solutions
+VMware provide drivers and plugin in order to integrate vSphere,vSAN and NSX with Openstack. The usefull links:
+[VMware vSphere Driver : Nova + vSphere](http://docs.openstack.org/trunk/config-reference/content/vmware.html)
+[VMware VMDK Driver : Cinder + vSphere](http://docs.openstack.org/trunk/config-reference/content/vmware-vmdk-driver.html)
+[VMware NSX Plugin : Neutron + NSX](http://docs.openstack.org/trunk/openstack-network/admin/content/nvp_plugin.html)
 
 ## vRealize Automation
 ![VRA](docs/vra.jpg)
