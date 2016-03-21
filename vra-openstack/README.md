@@ -7,4 +7,4 @@ There is a risk to desynchronize all that stuff. Anyway I explain in this topic 
  ![](docs/1-prepare-floating.png)
 
  * Identity the openstack URL in order to create OS Endpoint
- ![](docs/.png)
+ ![](docs/2-identify-url.png)
