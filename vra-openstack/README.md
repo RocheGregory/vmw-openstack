@@ -56,3 +56,6 @@ There is a risk to desynchronize all that stuff. Anyway I explain in this topic 
 
  18. And initiate a ssh connexion with verification
  ![](docs/18-the-proof.png)
+  
+  
+That's it!
