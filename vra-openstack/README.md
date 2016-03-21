@@ -1,4 +1,4 @@
-# VMware vRA and Openstack as Endpoint 
+# VMware vRA and Openstack
 
 Some of you ask me to talk about vRA and Openstack integration. I'm not favorable to daisy chain CMP.
 There is a risk to desynchronize all that stuff. Anyway I explain in this topic how to.
