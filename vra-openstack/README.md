@@ -1,27 +1,27 @@
 # VMware vRA and Openstack
 
-Some of you ask me to talk about vRA and Openstack integration. I'm not favorable to daisy chain CMP.
-There is a risk to desynchronize all that stuff. Anyway I explain in this topic how to.
+Some of you ask me to talk about vRA and Openstack integration. I'm not favorable to daisy chain secral CMPs.
+There is a risk to desynchronize all that stuffs. Anywaym I explain in this topic how to do.
 
- 1. Create some floating IP in advance, so vRA could discover them during the next data collection
+ 1. Create some floating IP in advance, so vRA could discover them during the OS endpoint data collection
  ![](docs/1-prepare-floating-ip.png)
 
  2. Identity the openstack URL in order to create OS Endpoint
  ![](docs/2-identify-url.png)
 
- 3. Identify network in within you want spawn VMs
+ 3. Identify network in within you want to spawn VMs
  ![](docs/3-identify-networks.png)
 
  4. Create the OS endpoint in vRA
  ![](docs/4-create-os-endpoint.png)
 
- 5. Spicify OS URL, the account and the projet
+ 5. Specify OS URL, the account and the projet
  ![](docs/5-spicify-url-account-project.png)
 
  6. Dont't forget to modify your Fabric Group
  ![](docs/6-modify-fabric-group.png)
 
- 7. And add the OS resource
+ 7. And add the OS compute resource
  ![](docs/7-add-openstack.png)
 
  8. Lauch data collection and verify its status
@@ -48,13 +48,13 @@ There is a risk to desynchronize all that stuff. Anyway I explain in this topic 
  15. Yeah! VM is deployed
  ![](docs/15-vm-deployed.png)
 
- 16. Now associate a floating IP to the VM from items menu
+ 16. Now associate floating IP to the VM from Items Tab
  ![](docs/16-floating-ip.png)
 
  17. A quick check in Horizon
  ![](docs/17-horizon.png)
 
- 18. And initiate a ssh connexion with verification
+ 18. And initiate a ssh connexion with some verifications
  ![](docs/18-the-proof.png)
   
   
