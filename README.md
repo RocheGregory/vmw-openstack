@@ -23,4 +23,7 @@ VMware provide drivers and plugin in order to integrate vSphere,vSAN and NSX wit
 ![UBUNTU](docs/ubuntu.png)
 - [vnw-autopiloted](vmw-autopiloted/README.md) : scripts, conf files and tips for Canonical Landscape + Autopilot with VMware vCenter & NSX-V plugins
 
+## Red Hat Openstack
+[Redhat Openstack VMware integration](https://access.redhat.com/webassets/avalon/d/Red_Hat_Enterprise_Linux_OpenStack_Platform-7-VMware_Integration_Guide-en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform-7-VMware_Integration_Guide-en-US.pdf)
+
 
